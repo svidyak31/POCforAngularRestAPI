@@ -1,7 +1,22 @@
 {
-  "name": "PoC",
-  "description": "Proof of Concept",
-  "dependencies": {
-    "express": "~4.0.0"
-  }
+    "name": "PoC",
+    "description": "Proof of Concept",
+    "dependencies": {
+        "express": "~4.0.0",
+        "gulp": "3.9.1",
+        "gulp-concat": "^2.6.0",
+        "gulp-gzip": "1.2.0",
+        "gulp-rename": "^1.2.2",
+        "gulp-tar": "^1.9.0",
+        "gulp-util": "^3.0.7",
+        "jasmine": "2.4.1",
+        "karma": "0.13.22",
+        "karma-chrome-launcher": "0.2.3",
+        "karma-jasmine": "0.3.8",
+        "karma-junit-reporter": "^0.4.2",
+        "karma-phantomjs-launcher": "1.0.0",
+        "phantomjs-prebuilt": "2.1.7",
+        "run-sequence": "^1.1.5",
+        "del": "^2.2.0"
+    }
 }
