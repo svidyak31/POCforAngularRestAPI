@@ -1,0 +1,27 @@
+<table class="table table-striped">
+  
+    <tbody>
+	   <tr>
+                <th>Work Order ID</th>
+                <th>Company</th>
+                <th>Status</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Description</th>
+                <th>Address1</th>
+                <th>Creation Date</th>
+                <th>Appointment Date</th>
+            </tr>
+        <tr ng-repeat="x in tickets">
+           <td>{{ x.workOrderId }}</td>
+                <td>{{ x.company }}</td>
+                <td>{{ x.status }}</td>
+                <td>{{ x.email }}</td>
+                <td>{{ x.phone }}</td>
+                <td>{{ x.description}}</td>
+                <td>{{ x.address1 }}</td>
+                <td>{{ x.creationDate}}</td>
+                <td>{{ x.appointmentDate }}</td>
+        </tr>
+    </tbody>
+</table>

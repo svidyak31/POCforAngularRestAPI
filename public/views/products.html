@@ -1,0 +1,20 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>S.No</th>
+            <th>Product Name</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="product in products">
+            <th scope="row">{{$index+1}}</th>
+            <td>{{product}}</td>
+            <td>
+                <a ng-click="goToTickets(product)">
+                    >>
+                </a>    
+            </td>
+        </tr>
+    </tbody>
+</table>

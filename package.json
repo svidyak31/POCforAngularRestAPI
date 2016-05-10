@@ -1,0 +1,7 @@
+{
+  "name": "PoC",
+  "description": "Proof of Concept",
+  "dependencies": {
+    "express": "~4.0.0"
+  }
+}
